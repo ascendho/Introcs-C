@@ -1,0 +1,7 @@
+# ninja log v5
+1	114	7348725444018935	CMakeFiles/HelloWorld.dir/HelloWorld.c.obj	4fbc7bed80533d83
+1	99	7348735138137257	CMakeFiles/UseArgument.dir/UseArgument.c.obj	1dfabee8198e3334
+116	307	7348725445915309	HelloWorld.exe	68bfc0507c591805
+100	286	7348735139969144	UseArgument.exe	b1178d4fc6f5e031
+3	100	7348816313850565	CMakeFiles/HelloWorld.dir/HelloWorld.c.obj	5d90b087b9bd54ce
+101	297	7348816315778484	HelloWorld.exe	68bfc0507c591805
