@@ -7,3 +7,8 @@ add_executable(HelloWorld HelloWorld.c)
 add_executable(UseArgument UseArgument.c)
 add_executable(Ruler Ruler.c)
 add_executable(template template.c)
+
+add_executable(IntOps  "IntOps.c")
+add_executable(Quadratic Quadratic.c)
+add_executable(LeapYear LeapYear.c)
+add_executable(RandomInt RandomInt.c)

@@ -1,6 +1,3 @@
-//  Compilation:  gcc UseArgument.c -o UseArgument
-//  Execution:    ./UseArgument name
-
 #include <stdio.h>
 
 int main(int argc, char **argv) {

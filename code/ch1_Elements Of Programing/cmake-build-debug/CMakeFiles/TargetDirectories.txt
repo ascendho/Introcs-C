@@ -2,5 +2,9 @@ D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_El
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_Elements Of Programing/cmake-build-debug/CMakeFiles/UseArgument.dir
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_Elements Of Programing/cmake-build-debug/CMakeFiles/Ruler.dir
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_Elements Of Programing/cmake-build-debug/CMakeFiles/template.dir
+D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_Elements Of Programing/cmake-build-debug/CMakeFiles/IntOps.dir
+D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_Elements Of Programing/cmake-build-debug/CMakeFiles/Quadratic.dir
+D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_Elements Of Programing/cmake-build-debug/CMakeFiles/LeapYear.dir
+D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_Elements Of Programing/cmake-build-debug/CMakeFiles/RandomInt.dir
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_Elements Of Programing/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/code/ch1_Elements Of Programing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
