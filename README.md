@@ -1,6 +1,6 @@
 ## Overview
 
-<img src="img/cover.png" align="right" width=120 hspace=3>This repository contains the C version source code for the  textbook <a href="https://www.pearson.com/en-us/subject-catalog/p/computer-science-an-interdisciplinary-approach/P200000007399?view=educator">Computer Science: An Interdisciplinary Approach</a> written by Robert Sedgewick and Kevin Wayne.
+<img src="img/cover.png" align="right" width=120 hspace=1>This repository contains the C version source code for the  textbook <a href="https://www.pearson.com/en-us/subject-catalog/p/computer-science-an-interdisciplinary-approach/P200000007399?view=educator">Computer Science: An Interdisciplinary Approach</a> written by Robert Sedgewick and Kevin Wayne.
 
 The book is intended for a first course in computer science for the next generation of scientists and engineers, pioneering Princeton computer science professors Robert Sedgewick and Kevin Wayne introduces core Java programming techniques in a scientific context, while also demystifying computation and illuminating its intellectual underpinnings.
 
