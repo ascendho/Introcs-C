@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main(int argc, char **argv) {
     char *endptr;
@@ -10,6 +11,8 @@ int main(int argc, char **argv) {
 
     int bets = 0;  // total number of bets made
     int wins = 0;  // total number of games won
+
+    srand(time(NULL));
 
     // repeat trials times
     for (int t = 0; t < trials; t++) {

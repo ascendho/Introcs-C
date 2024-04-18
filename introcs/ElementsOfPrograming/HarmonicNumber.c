@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
     }
 
     // print the nth harmonic number
-    printf("%.15lf\n", sum);
+    printf("%lf\n", sum);
 
     return 0;
 }

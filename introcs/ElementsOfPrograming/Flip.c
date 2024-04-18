@@ -3,8 +3,7 @@
 #include <time.h>
 
 int main() {
-
-    srand((unsigned int) time(NULL));
+    srand(time(NULL));
 
     // Math.random() returns a value between 0.0 and 1.0
     // so it is heads or tails 50% of the time

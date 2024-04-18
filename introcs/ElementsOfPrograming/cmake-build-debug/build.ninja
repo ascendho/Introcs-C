@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/cmake-build-debug/
+cmake_ninja_workdir = D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target HelloWorld
 
@@ -49,13 +49,11 @@ cmake_ninja_workdir = D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ wit
 
 build cmake_object_order_depends_target_HelloWorld: phony || CMakeFiles/HelloWorld.dir
 
-build CMakeFiles/HelloWorld.dir/HelloWorld.c.obj: C_COMPILER__HelloWorld_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/HelloWorld.c || cmake_object_order_depends_target_HelloWorld
+build CMakeFiles/HelloWorld.dir/HelloWorld.c.obj: C_COMPILER__HelloWorld_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/HelloWorld.c || cmake_object_order_depends_target_HelloWorld
   DEP_FILE = CMakeFiles\HelloWorld.dir\HelloWorld.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles\HelloWorld.dir
-  TARGET_COMPILE_PDB = CMakeFiles\HelloWorld.dir\
-  TARGET_PDB = HelloWorld.pdb
 
 
 # =============================================================================
@@ -71,10 +69,9 @@ build HelloWorld.exe: C_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorl
   OBJECT_DIR = CMakeFiles\HelloWorld.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\HelloWorld.dir\
   TARGET_FILE = HelloWorld.exe
   TARGET_IMPLIB = libHelloWorld.dll.a
-  TARGET_PDB = HelloWorld.pdb
+  TARGET_PDB = HelloWorld.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UseArgument
@@ -85,13 +82,11 @@ build HelloWorld.exe: C_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorl
 
 build cmake_object_order_depends_target_UseArgument: phony || CMakeFiles/UseArgument.dir
 
-build CMakeFiles/UseArgument.dir/UseArgument.c.obj: C_COMPILER__UseArgument_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/UseArgument.c || cmake_object_order_depends_target_UseArgument
+build CMakeFiles/UseArgument.dir/UseArgument.c.obj: C_COMPILER__UseArgument_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/UseArgument.c || cmake_object_order_depends_target_UseArgument
   DEP_FILE = CMakeFiles\UseArgument.dir\UseArgument.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\UseArgument.dir
   OBJECT_FILE_DIR = CMakeFiles\UseArgument.dir
-  TARGET_COMPILE_PDB = CMakeFiles\UseArgument.dir\
-  TARGET_PDB = UseArgument.pdb
 
 
 # =============================================================================
@@ -107,10 +102,9 @@ build UseArgument.exe: C_EXECUTABLE_LINKER__UseArgument_Debug CMakeFiles/UseArgu
   OBJECT_DIR = CMakeFiles\UseArgument.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\UseArgument.dir\
   TARGET_FILE = UseArgument.exe
   TARGET_IMPLIB = libUseArgument.dll.a
-  TARGET_PDB = UseArgument.pdb
+  TARGET_PDB = UseArgument.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Ruler
@@ -121,13 +115,11 @@ build UseArgument.exe: C_EXECUTABLE_LINKER__UseArgument_Debug CMakeFiles/UseArgu
 
 build cmake_object_order_depends_target_Ruler: phony || CMakeFiles/Ruler.dir
 
-build CMakeFiles/Ruler.dir/Ruler.c.obj: C_COMPILER__Ruler_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/Ruler.c || cmake_object_order_depends_target_Ruler
+build CMakeFiles/Ruler.dir/Ruler.c.obj: C_COMPILER__Ruler_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/Ruler.c || cmake_object_order_depends_target_Ruler
   DEP_FILE = CMakeFiles\Ruler.dir\Ruler.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Ruler.dir
   OBJECT_FILE_DIR = CMakeFiles\Ruler.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Ruler.dir\
-  TARGET_PDB = Ruler.pdb
 
 
 # =============================================================================
@@ -143,10 +135,9 @@ build Ruler.exe: C_EXECUTABLE_LINKER__Ruler_Debug CMakeFiles/Ruler.dir/Ruler.c.o
   OBJECT_DIR = CMakeFiles\Ruler.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Ruler.dir\
   TARGET_FILE = Ruler.exe
   TARGET_IMPLIB = libRuler.dll.a
-  TARGET_PDB = Ruler.pdb
+  TARGET_PDB = Ruler.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target template
@@ -157,13 +148,11 @@ build Ruler.exe: C_EXECUTABLE_LINKER__Ruler_Debug CMakeFiles/Ruler.dir/Ruler.c.o
 
 build cmake_object_order_depends_target_template: phony || CMakeFiles/template.dir
 
-build CMakeFiles/template.dir/template.c.obj: C_COMPILER__template_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/template.c || cmake_object_order_depends_target_template
+build CMakeFiles/template.dir/template.c.obj: C_COMPILER__template_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/template.c || cmake_object_order_depends_target_template
   DEP_FILE = CMakeFiles\template.dir\template.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\template.dir
   OBJECT_FILE_DIR = CMakeFiles\template.dir
-  TARGET_COMPILE_PDB = CMakeFiles\template.dir\
-  TARGET_PDB = template.pdb
 
 
 # =============================================================================
@@ -179,10 +168,9 @@ build template.exe: C_EXECUTABLE_LINKER__template_Debug CMakeFiles/template.dir/
   OBJECT_DIR = CMakeFiles\template.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\template.dir\
   TARGET_FILE = template.exe
   TARGET_IMPLIB = libtemplate.dll.a
-  TARGET_PDB = template.pdb
+  TARGET_PDB = template.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target IntOps
@@ -193,13 +181,11 @@ build template.exe: C_EXECUTABLE_LINKER__template_Debug CMakeFiles/template.dir/
 
 build cmake_object_order_depends_target_IntOps: phony || CMakeFiles/IntOps.dir
 
-build CMakeFiles/IntOps.dir/IntOps.c.obj: C_COMPILER__IntOps_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/IntOps.c || cmake_object_order_depends_target_IntOps
+build CMakeFiles/IntOps.dir/IntOps.c.obj: C_COMPILER__IntOps_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/IntOps.c || cmake_object_order_depends_target_IntOps
   DEP_FILE = CMakeFiles\IntOps.dir\IntOps.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\IntOps.dir
   OBJECT_FILE_DIR = CMakeFiles\IntOps.dir
-  TARGET_COMPILE_PDB = CMakeFiles\IntOps.dir\
-  TARGET_PDB = IntOps.pdb
 
 
 # =============================================================================
@@ -215,10 +201,9 @@ build IntOps.exe: C_EXECUTABLE_LINKER__IntOps_Debug CMakeFiles/IntOps.dir/IntOps
   OBJECT_DIR = CMakeFiles\IntOps.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\IntOps.dir\
   TARGET_FILE = IntOps.exe
   TARGET_IMPLIB = libIntOps.dll.a
-  TARGET_PDB = IntOps.pdb
+  TARGET_PDB = IntOps.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Quadratic
@@ -229,13 +214,11 @@ build IntOps.exe: C_EXECUTABLE_LINKER__IntOps_Debug CMakeFiles/IntOps.dir/IntOps
 
 build cmake_object_order_depends_target_Quadratic: phony || CMakeFiles/Quadratic.dir
 
-build CMakeFiles/Quadratic.dir/Quadratic.c.obj: C_COMPILER__Quadratic_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/Quadratic.c || cmake_object_order_depends_target_Quadratic
+build CMakeFiles/Quadratic.dir/Quadratic.c.obj: C_COMPILER__Quadratic_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/Quadratic.c || cmake_object_order_depends_target_Quadratic
   DEP_FILE = CMakeFiles\Quadratic.dir\Quadratic.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Quadratic.dir
   OBJECT_FILE_DIR = CMakeFiles\Quadratic.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Quadratic.dir\
-  TARGET_PDB = Quadratic.pdb
 
 
 # =============================================================================
@@ -251,10 +234,9 @@ build Quadratic.exe: C_EXECUTABLE_LINKER__Quadratic_Debug CMakeFiles/Quadratic.d
   OBJECT_DIR = CMakeFiles\Quadratic.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Quadratic.dir\
   TARGET_FILE = Quadratic.exe
   TARGET_IMPLIB = libQuadratic.dll.a
-  TARGET_PDB = Quadratic.pdb
+  TARGET_PDB = Quadratic.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target LeapYear
@@ -265,13 +247,11 @@ build Quadratic.exe: C_EXECUTABLE_LINKER__Quadratic_Debug CMakeFiles/Quadratic.d
 
 build cmake_object_order_depends_target_LeapYear: phony || CMakeFiles/LeapYear.dir
 
-build CMakeFiles/LeapYear.dir/LeapYear.c.obj: C_COMPILER__LeapYear_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/LeapYear.c || cmake_object_order_depends_target_LeapYear
+build CMakeFiles/LeapYear.dir/LeapYear.c.obj: C_COMPILER__LeapYear_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/LeapYear.c || cmake_object_order_depends_target_LeapYear
   DEP_FILE = CMakeFiles\LeapYear.dir\LeapYear.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\LeapYear.dir
   OBJECT_FILE_DIR = CMakeFiles\LeapYear.dir
-  TARGET_COMPILE_PDB = CMakeFiles\LeapYear.dir\
-  TARGET_PDB = LeapYear.pdb
 
 
 # =============================================================================
@@ -287,10 +267,9 @@ build LeapYear.exe: C_EXECUTABLE_LINKER__LeapYear_Debug CMakeFiles/LeapYear.dir/
   OBJECT_DIR = CMakeFiles\LeapYear.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\LeapYear.dir\
   TARGET_FILE = LeapYear.exe
   TARGET_IMPLIB = libLeapYear.dll.a
-  TARGET_PDB = LeapYear.pdb
+  TARGET_PDB = LeapYear.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RandomInt
@@ -301,13 +280,11 @@ build LeapYear.exe: C_EXECUTABLE_LINKER__LeapYear_Debug CMakeFiles/LeapYear.dir/
 
 build cmake_object_order_depends_target_RandomInt: phony || CMakeFiles/RandomInt.dir
 
-build CMakeFiles/RandomInt.dir/RandomInt.c.obj: C_COMPILER__RandomInt_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/RandomInt.c || cmake_object_order_depends_target_RandomInt
+build CMakeFiles/RandomInt.dir/RandomInt.c.obj: C_COMPILER__RandomInt_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/RandomInt.c || cmake_object_order_depends_target_RandomInt
   DEP_FILE = CMakeFiles\RandomInt.dir\RandomInt.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\RandomInt.dir
   OBJECT_FILE_DIR = CMakeFiles\RandomInt.dir
-  TARGET_COMPILE_PDB = CMakeFiles\RandomInt.dir\
-  TARGET_PDB = RandomInt.pdb
 
 
 # =============================================================================
@@ -323,10 +300,9 @@ build RandomInt.exe: C_EXECUTABLE_LINKER__RandomInt_Debug CMakeFiles/RandomInt.d
   OBJECT_DIR = CMakeFiles\RandomInt.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\RandomInt.dir\
   TARGET_FILE = RandomInt.exe
   TARGET_IMPLIB = libRandomInt.dll.a
-  TARGET_PDB = RandomInt.pdb
+  TARGET_PDB = RandomInt.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Flip
@@ -337,13 +313,11 @@ build RandomInt.exe: C_EXECUTABLE_LINKER__RandomInt_Debug CMakeFiles/RandomInt.d
 
 build cmake_object_order_depends_target_Flip: phony || CMakeFiles/Flip.dir
 
-build CMakeFiles/Flip.dir/Flip.c.obj: C_COMPILER__Flip_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/Flip.c || cmake_object_order_depends_target_Flip
+build CMakeFiles/Flip.dir/Flip.c.obj: C_COMPILER__Flip_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/Flip.c || cmake_object_order_depends_target_Flip
   DEP_FILE = CMakeFiles\Flip.dir\Flip.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Flip.dir
   OBJECT_FILE_DIR = CMakeFiles\Flip.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Flip.dir\
-  TARGET_PDB = Flip.pdb
 
 
 # =============================================================================
@@ -359,10 +333,9 @@ build Flip.exe: C_EXECUTABLE_LINKER__Flip_Debug CMakeFiles/Flip.dir/Flip.c.obj
   OBJECT_DIR = CMakeFiles\Flip.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Flip.dir\
   TARGET_FILE = Flip.exe
   TARGET_IMPLIB = libFlip.dll.a
-  TARGET_PDB = Flip.pdb
+  TARGET_PDB = Flip.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TenHellos
@@ -373,13 +346,11 @@ build Flip.exe: C_EXECUTABLE_LINKER__Flip_Debug CMakeFiles/Flip.dir/Flip.c.obj
 
 build cmake_object_order_depends_target_TenHellos: phony || CMakeFiles/TenHellos.dir
 
-build CMakeFiles/TenHellos.dir/TenHellos.c.obj: C_COMPILER__TenHellos_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/TenHellos.c || cmake_object_order_depends_target_TenHellos
+build CMakeFiles/TenHellos.dir/TenHellos.c.obj: C_COMPILER__TenHellos_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/TenHellos.c || cmake_object_order_depends_target_TenHellos
   DEP_FILE = CMakeFiles\TenHellos.dir\TenHellos.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\TenHellos.dir
   OBJECT_FILE_DIR = CMakeFiles\TenHellos.dir
-  TARGET_COMPILE_PDB = CMakeFiles\TenHellos.dir\
-  TARGET_PDB = TenHellos.pdb
 
 
 # =============================================================================
@@ -395,10 +366,9 @@ build TenHellos.exe: C_EXECUTABLE_LINKER__TenHellos_Debug CMakeFiles/TenHellos.d
   OBJECT_DIR = CMakeFiles\TenHellos.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\TenHellos.dir\
   TARGET_FILE = TenHellos.exe
   TARGET_IMPLIB = libTenHellos.dll.a
-  TARGET_PDB = TenHellos.pdb
+  TARGET_PDB = TenHellos.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PowersOfTwo
@@ -409,13 +379,11 @@ build TenHellos.exe: C_EXECUTABLE_LINKER__TenHellos_Debug CMakeFiles/TenHellos.d
 
 build cmake_object_order_depends_target_PowersOfTwo: phony || CMakeFiles/PowersOfTwo.dir
 
-build CMakeFiles/PowersOfTwo.dir/PowersOfTwo.c.obj: C_COMPILER__PowersOfTwo_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/PowersOfTwo.c || cmake_object_order_depends_target_PowersOfTwo
+build CMakeFiles/PowersOfTwo.dir/PowersOfTwo.c.obj: C_COMPILER__PowersOfTwo_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/PowersOfTwo.c || cmake_object_order_depends_target_PowersOfTwo
   DEP_FILE = CMakeFiles\PowersOfTwo.dir\PowersOfTwo.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\PowersOfTwo.dir
   OBJECT_FILE_DIR = CMakeFiles\PowersOfTwo.dir
-  TARGET_COMPILE_PDB = CMakeFiles\PowersOfTwo.dir\
-  TARGET_PDB = PowersOfTwo.pdb
 
 
 # =============================================================================
@@ -431,10 +399,9 @@ build PowersOfTwo.exe: C_EXECUTABLE_LINKER__PowersOfTwo_Debug CMakeFiles/PowersO
   OBJECT_DIR = CMakeFiles\PowersOfTwo.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\PowersOfTwo.dir\
   TARGET_FILE = PowersOfTwo.exe
   TARGET_IMPLIB = libPowersOfTwo.dll.a
-  TARGET_PDB = PowersOfTwo.pdb
+  TARGET_PDB = PowersOfTwo.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DivisorPattern
@@ -445,13 +412,11 @@ build PowersOfTwo.exe: C_EXECUTABLE_LINKER__PowersOfTwo_Debug CMakeFiles/PowersO
 
 build cmake_object_order_depends_target_DivisorPattern: phony || CMakeFiles/DivisorPattern.dir
 
-build CMakeFiles/DivisorPattern.dir/DivisorPattern.c.obj: C_COMPILER__DivisorPattern_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/DivisorPattern.c || cmake_object_order_depends_target_DivisorPattern
+build CMakeFiles/DivisorPattern.dir/DivisorPattern.c.obj: C_COMPILER__DivisorPattern_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/DivisorPattern.c || cmake_object_order_depends_target_DivisorPattern
   DEP_FILE = CMakeFiles\DivisorPattern.dir\DivisorPattern.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\DivisorPattern.dir
   OBJECT_FILE_DIR = CMakeFiles\DivisorPattern.dir
-  TARGET_COMPILE_PDB = CMakeFiles\DivisorPattern.dir\
-  TARGET_PDB = DivisorPattern.pdb
 
 
 # =============================================================================
@@ -467,10 +432,9 @@ build DivisorPattern.exe: C_EXECUTABLE_LINKER__DivisorPattern_Debug CMakeFiles/D
   OBJECT_DIR = CMakeFiles\DivisorPattern.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\DivisorPattern.dir\
   TARGET_FILE = DivisorPattern.exe
   TARGET_IMPLIB = libDivisorPattern.dll.a
-  TARGET_PDB = DivisorPattern.pdb
+  TARGET_PDB = DivisorPattern.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target HarmonicNumber
@@ -481,13 +445,11 @@ build DivisorPattern.exe: C_EXECUTABLE_LINKER__DivisorPattern_Debug CMakeFiles/D
 
 build cmake_object_order_depends_target_HarmonicNumber: phony || CMakeFiles/HarmonicNumber.dir
 
-build CMakeFiles/HarmonicNumber.dir/HarmonicNumber.c.obj: C_COMPILER__HarmonicNumber_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/HarmonicNumber.c || cmake_object_order_depends_target_HarmonicNumber
+build CMakeFiles/HarmonicNumber.dir/HarmonicNumber.c.obj: C_COMPILER__HarmonicNumber_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/HarmonicNumber.c || cmake_object_order_depends_target_HarmonicNumber
   DEP_FILE = CMakeFiles\HarmonicNumber.dir\HarmonicNumber.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\HarmonicNumber.dir
   OBJECT_FILE_DIR = CMakeFiles\HarmonicNumber.dir
-  TARGET_COMPILE_PDB = CMakeFiles\HarmonicNumber.dir\
-  TARGET_PDB = HarmonicNumber.pdb
 
 
 # =============================================================================
@@ -503,10 +465,9 @@ build HarmonicNumber.exe: C_EXECUTABLE_LINKER__HarmonicNumber_Debug CMakeFiles/H
   OBJECT_DIR = CMakeFiles\HarmonicNumber.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\HarmonicNumber.dir\
   TARGET_FILE = HarmonicNumber.exe
   TARGET_IMPLIB = libHarmonicNumber.dll.a
-  TARGET_PDB = HarmonicNumber.pdb
+  TARGET_PDB = HarmonicNumber.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Sqrt
@@ -517,13 +478,11 @@ build HarmonicNumber.exe: C_EXECUTABLE_LINKER__HarmonicNumber_Debug CMakeFiles/H
 
 build cmake_object_order_depends_target_Sqrt: phony || CMakeFiles/Sqrt.dir
 
-build CMakeFiles/Sqrt.dir/Sqrt.c.obj: C_COMPILER__Sqrt_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/Sqrt.c || cmake_object_order_depends_target_Sqrt
+build CMakeFiles/Sqrt.dir/Sqrt.c.obj: C_COMPILER__Sqrt_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/Sqrt.c || cmake_object_order_depends_target_Sqrt
   DEP_FILE = CMakeFiles\Sqrt.dir\Sqrt.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Sqrt.dir
   OBJECT_FILE_DIR = CMakeFiles\Sqrt.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Sqrt.dir\
-  TARGET_PDB = Sqrt.pdb
 
 
 # =============================================================================
@@ -539,10 +498,9 @@ build Sqrt.exe: C_EXECUTABLE_LINKER__Sqrt_Debug CMakeFiles/Sqrt.dir/Sqrt.c.obj
   OBJECT_DIR = CMakeFiles\Sqrt.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Sqrt.dir\
   TARGET_FILE = Sqrt.exe
   TARGET_IMPLIB = libSqrt.dll.a
-  TARGET_PDB = Sqrt.pdb
+  TARGET_PDB = Sqrt.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Binary
@@ -553,13 +511,11 @@ build Sqrt.exe: C_EXECUTABLE_LINKER__Sqrt_Debug CMakeFiles/Sqrt.dir/Sqrt.c.obj
 
 build cmake_object_order_depends_target_Binary: phony || CMakeFiles/Binary.dir
 
-build CMakeFiles/Binary.dir/Binary.c.obj: C_COMPILER__Binary_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/Binary.c || cmake_object_order_depends_target_Binary
+build CMakeFiles/Binary.dir/Binary.c.obj: C_COMPILER__Binary_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/Binary.c || cmake_object_order_depends_target_Binary
   DEP_FILE = CMakeFiles\Binary.dir\Binary.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Binary.dir
   OBJECT_FILE_DIR = CMakeFiles\Binary.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Binary.dir\
-  TARGET_PDB = Binary.pdb
 
 
 # =============================================================================
@@ -575,10 +531,9 @@ build Binary.exe: C_EXECUTABLE_LINKER__Binary_Debug CMakeFiles/Binary.dir/Binary
   OBJECT_DIR = CMakeFiles\Binary.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Binary.dir\
   TARGET_FILE = Binary.exe
   TARGET_IMPLIB = libBinary.dll.a
-  TARGET_PDB = Binary.pdb
+  TARGET_PDB = Binary.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Gambler
@@ -589,13 +544,11 @@ build Binary.exe: C_EXECUTABLE_LINKER__Binary_Debug CMakeFiles/Binary.dir/Binary
 
 build cmake_object_order_depends_target_Gambler: phony || CMakeFiles/Gambler.dir
 
-build CMakeFiles/Gambler.dir/Gambler.c.obj: C_COMPILER__Gambler_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/Gambler.c || cmake_object_order_depends_target_Gambler
+build CMakeFiles/Gambler.dir/Gambler.c.obj: C_COMPILER__Gambler_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/Gambler.c || cmake_object_order_depends_target_Gambler
   DEP_FILE = CMakeFiles\Gambler.dir\Gambler.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Gambler.dir
   OBJECT_FILE_DIR = CMakeFiles\Gambler.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Gambler.dir\
-  TARGET_PDB = Gambler.pdb
 
 
 # =============================================================================
@@ -611,10 +564,9 @@ build Gambler.exe: C_EXECUTABLE_LINKER__Gambler_Debug CMakeFiles/Gambler.dir/Gam
   OBJECT_DIR = CMakeFiles\Gambler.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Gambler.dir\
   TARGET_FILE = Gambler.exe
   TARGET_IMPLIB = libGambler.dll.a
-  TARGET_PDB = Gambler.pdb
+  TARGET_PDB = Gambler.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Factors
@@ -625,13 +577,11 @@ build Gambler.exe: C_EXECUTABLE_LINKER__Gambler_Debug CMakeFiles/Gambler.dir/Gam
 
 build cmake_object_order_depends_target_Factors: phony || CMakeFiles/Factors.dir
 
-build CMakeFiles/Factors.dir/Factors.c.obj: C_COMPILER__Factors_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/Factors.c || cmake_object_order_depends_target_Factors
+build CMakeFiles/Factors.dir/Factors.c.obj: C_COMPILER__Factors_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/Factors.c || cmake_object_order_depends_target_Factors
   DEP_FILE = CMakeFiles\Factors.dir\Factors.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Factors.dir
   OBJECT_FILE_DIR = CMakeFiles\Factors.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Factors.dir\
-  TARGET_PDB = Factors.pdb
 
 
 # =============================================================================
@@ -647,17 +597,82 @@ build Factors.exe: C_EXECUTABLE_LINKER__Factors_Debug CMakeFiles/Factors.dir/Fac
   OBJECT_DIR = CMakeFiles\Factors.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Factors.dir\
   TARGET_FILE = Factors.exe
   TARGET_IMPLIB = libFactors.dll.a
-  TARGET_PDB = Factors.pdb
+  TARGET_PDB = Factors.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Sample
+
+
+#############################################
+# Order-only phony target for Sample
+
+build cmake_object_order_depends_target_Sample: phony || CMakeFiles/Sample.dir
+
+build CMakeFiles/Sample.dir/Sample.c.obj: C_COMPILER__Sample_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/Sample.c || cmake_object_order_depends_target_Sample
+  DEP_FILE = CMakeFiles\Sample.dir\Sample.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Sample.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sample.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sample
+
+
+#############################################
+# Link the executable Sample.exe
+
+build Sample.exe: C_EXECUTABLE_LINKER__Sample_Debug CMakeFiles/Sample.dir/Sample.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Sample.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Sample.exe
+  TARGET_IMPLIB = libSample.dll.a
+  TARGET_PDB = Sample.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CouponCollector
+
+
+#############################################
+# Order-only phony target for CouponCollector
+
+build cmake_object_order_depends_target_CouponCollector: phony || CMakeFiles/CouponCollector.dir
+
+build CMakeFiles/CouponCollector.dir/CouponCollector.c.obj: C_COMPILER__CouponCollector_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/CouponCollector.c || cmake_object_order_depends_target_CouponCollector
+  DEP_FILE = CMakeFiles\CouponCollector.dir\CouponCollector.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\CouponCollector.dir
+  OBJECT_FILE_DIR = CMakeFiles\CouponCollector.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CouponCollector
+
+
+#############################################
+# Link the executable CouponCollector.exe
+
+build CouponCollector.exe: C_EXECUTABLE_LINKER__CouponCollector_Debug CMakeFiles/CouponCollector.dir/CouponCollector.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CouponCollector.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CouponCollector.exe
+  TARGET_IMPLIB = libCouponCollector.dll.a
+  TARGET_PDB = CouponCollector.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Udemy\Coursera - Computer Science Programming with a Purpose\REPO\source\ElementsOfPrograming\cmake-build-debug" && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Udemy\Coursera - Computer Science Programming with a Purpose\REPO\introcs\ElementsOfPrograming\cmake-build-debug" && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -668,7 +683,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Udemy\Coursera - Computer Science Programming with a Purpose\REPO\source\ElementsOfPrograming\cmake-build-debug" && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"D:\Udemy\Coursera - Computer Science Programming with a Purpose\REPO\source\ElementsOfPrograming" -B"D:\Udemy\Coursera - Computer Science Programming with a Purpose\REPO\source\ElementsOfPrograming\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "D:\Udemy\Coursera - Computer Science Programming with a Purpose\REPO\introcs\ElementsOfPrograming\cmake-build-debug" && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"D:\Udemy\Coursera - Computer Science Programming with a Purpose\REPO\introcs\ElementsOfPrograming" -B"D:\Udemy\Coursera - Computer Science Programming with a Purpose\REPO\introcs\ElementsOfPrograming\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -679,6 +694,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build Binary: phony Binary.exe
+
+build CouponCollector: phony CouponCollector.exe
 
 build DivisorPattern: phony DivisorPattern.exe
 
@@ -704,6 +721,8 @@ build RandomInt: phony RandomInt.exe
 
 build Ruler: phony Ruler.exe
 
+build Sample: phony Sample.exe
+
 build Sqrt: phony Sqrt.exe
 
 build TenHellos: phony TenHellos.exe
@@ -718,9 +737,9 @@ build template: phony template.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming/cmake-build-debug
+# Folder: D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug
 
-build all: phony HelloWorld.exe UseArgument.exe Ruler.exe template.exe IntOps.exe Quadratic.exe LeapYear.exe RandomInt.exe Flip.exe TenHellos.exe PowersOfTwo.exe DivisorPattern.exe HarmonicNumber.exe Sqrt.exe Binary.exe Gambler.exe Factors.exe
+build all: phony HelloWorld.exe UseArgument.exe Ruler.exe template.exe IntOps.exe Quadratic.exe LeapYear.exe RandomInt.exe Flip.exe TenHellos.exe PowersOfTwo.exe DivisorPattern.exe HarmonicNumber.exe Sqrt.exe Binary.exe Gambler.exe Factors.exe Sample.exe CouponCollector.exe
 
 # =============================================================================
 # Built-in targets
@@ -729,14 +748,14 @@ build all: phony HelloWorld.exe UseArgument.exe Ruler.exe template.exe IntOps.ex
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/source/ElementsOfPrograming/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/CMakeLists.txt: phony
 
 
 #############################################

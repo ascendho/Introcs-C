@@ -1,6 +1,6 @@
 ## Overview
 
-<img src="img/cover.png" align="right" width=110 hspace=1>This repository contains the C version source code for the  textbook <a href="https://www.pearson.com/en-us/subject-catalog/p/computer-science-an-interdisciplinary-approach/P200000007399?view=educator">Computer Science: An Interdisciplinary Approach</a> written by Robert Sedgewick and Kevin Wayne.
+<img src="img/cover.png" align="right" width=110 hspace=1>This repository hosts the C version source code for the  textbook <a href="https://www.pearson.com/en-us/subject-catalog/p/computer-science-an-interdisciplinary-approach/P200000007399?view=educator">Computer Science: An Interdisciplinary Approach</a>, co-authored by Robert Sedgewick and Kevin Wayne, and is named a Notable Book in the 21st Annual Best of Computing list by the ACM.
 
 The book is intended for a first course in computer science for the next generation of scientists and engineers, pioneering Princeton computer science professors Robert Sedgewick and Kevin Wayne introduces core Java programming techniques in a scientific context, while also demystifying computation and illuminating its intellectual underpinnings.
 
@@ -26,9 +26,10 @@ You can find and download the original Java code and many other extensive supple
 | <a href="introcs/ElementsOfPrograming/HarmonicNumber.c">HarmonicNumber.c</a> |           |                             |                 |
 |   <a href="introcs/ElementsOfPrograming/Sqrt.c">Sqrt.c</a>   |           |                             |                 |
 | <a href="introcs/ElementsOfPrograming/Binary.c">Binary.c</a> |           |                             |                 |
-| <a href="introcs/ElementsOfPrograming/Gambler.c">Gambler</a> |           |                             |                 |
-| <a href="introcs/ElementsOfPrograming/Factors.c">Factors</a> |           |                             |                 |
-|                                                              |           |                             |                 |
+| <a href="introcs/ElementsOfPrograming/Gambler.c">Gambler.c</a> |           |                             |                 |
+| <a href="introcs/ElementsOfPrograming/Factors.c">Factors.c</a> |           |                             |                 |
+| <a href="introcs/ElementsOfPrograming/Sample.c">Sample.c</a> |           |                             |                 |
+| <a href="introcs/ElementsOfPrograming/CouponCollector.c">CouponCollector.c</a> |           |                             |                 |
 
 
 
