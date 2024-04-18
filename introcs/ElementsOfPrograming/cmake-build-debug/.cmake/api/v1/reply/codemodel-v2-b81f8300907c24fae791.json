@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ch1_Elements_Of_Programing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Binary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Binary-Debug-79b0de25706bd366ea5c.json",
+					"name" : "Binary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DivisorPattern::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DivisorPattern-Debug-542e0047322fe02a751c.json",
+					"name" : "DivisorPattern",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Factors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Factors-Debug-0e9c6c2729049c511956.json",
+					"name" : "Factors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Flip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Flip-Debug-8927932828d2d1ee4a05.json",
+					"name" : "Flip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Gambler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gambler-Debug-b674e49b32509f7625fe.json",
+					"name" : "Gambler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HarmonicNumber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HarmonicNumber-Debug-289dc93d08097c105344.json",
+					"name" : "HarmonicNumber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HelloWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HelloWorld-Debug-dd6b91423d65653f3b5b.json",
+					"name" : "HelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IntOps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IntOps-Debug-658ee2f605c3a1d384c5.json",
+					"name" : "IntOps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LeapYear::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LeapYear-Debug-721311d5133e9f2ad1af.json",
+					"name" : "LeapYear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PowersOfTwo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PowersOfTwo-Debug-caf060d8558ef7cc48fd.json",
+					"name" : "PowersOfTwo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Quadratic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Quadratic-Debug-5feac8416847b724ae36.json",
+					"name" : "Quadratic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RandomInt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RandomInt-Debug-a3b8efdc04caa4ff694d.json",
+					"name" : "RandomInt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ruler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ruler-Debug-ebe350dc1f6e7ef91d9d.json",
+					"name" : "Ruler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sqrt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sqrt-Debug-22cdd0a3236f9ffbac89.json",
+					"name" : "Sqrt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TenHellos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TenHellos-Debug-6ca4e41ba751f684a45e.json",
+					"name" : "TenHellos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UseArgument::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UseArgument-Debug-3eb359634255c9f5fed9.json",
+					"name" : "UseArgument",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-template-Debug-fe8f12b13101eb0d5f76.json",
+					"name" : "template",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming/cmake-build-debug",
+		"source" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
