@@ -31,7 +31,9 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18
 					]
 				}
 			],
@@ -62,7 +64,9 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18
 					]
 				}
 			],
@@ -73,6 +77,13 @@
 					"id" : "Binary::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Binary-Debug-79b0de25706bd366ea5c.json",
 					"name" : "Binary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CouponCollector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CouponCollector-Debug-a574f989f68478aa86ea.json",
+					"name" : "CouponCollector",
 					"projectIndex" : 0
 				},
 				{
@@ -161,6 +172,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Sample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sample-Debug-6bfa9241e727cb8b4671.json",
+					"name" : "Sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Sqrt::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Sqrt-Debug-22cdd0a3236f9ffbac89.json",
 					"name" : "Sqrt",
@@ -193,8 +211,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming/cmake-build-debug",
-		"source" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming"
+		"build" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug",
+		"source" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming"
 	},
 	"version" : 
 	{

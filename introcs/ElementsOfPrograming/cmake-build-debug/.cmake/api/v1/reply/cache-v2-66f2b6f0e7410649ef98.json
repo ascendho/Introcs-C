@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming/cmake-build-debug"
+			"value" : "d:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming"
+			"value" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming/cmake-build-debug"
+			"value" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug"
 		},
 		{
 			"name" : "ch1_Elements_Of_Programing_IS_TOP_LEVEL",
@@ -1155,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming"
+			"value" : "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming"
 		}
 	],
 	"kind" : "cache",

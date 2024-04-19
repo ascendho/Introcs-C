@@ -1,4 +1,4 @@
-# Install script for directory: D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming
+# Install script for directory: D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/source/ElementsOfPrograming/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
