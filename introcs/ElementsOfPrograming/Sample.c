@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
     for (int i = 0; i < n; i++)
         perm[i] = i;
 
-    srand(time(NULL));
+    srand((unsigned int) time(NULL));
 
     // create random sample in perm[0], perm[1], ..., perm[m-1]
     for (int i = 0; i < m; i++) {

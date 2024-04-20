@@ -667,6 +667,105 @@ build CouponCollector.exe: C_EXECUTABLE_LINKER__CouponCollector_Debug CMakeFiles
   TARGET_IMPLIB = libCouponCollector.dll.a
   TARGET_PDB = CouponCollector.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target PrimeSieve
+
+
+#############################################
+# Order-only phony target for PrimeSieve
+
+build cmake_object_order_depends_target_PrimeSieve: phony || CMakeFiles/PrimeSieve.dir
+
+build CMakeFiles/PrimeSieve.dir/PrimeSieve.c.obj: C_COMPILER__PrimeSieve_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/PrimeSieve.c || cmake_object_order_depends_target_PrimeSieve
+  DEP_FILE = CMakeFiles\PrimeSieve.dir\PrimeSieve.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\PrimeSieve.dir
+  OBJECT_FILE_DIR = CMakeFiles\PrimeSieve.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PrimeSieve
+
+
+#############################################
+# Link the executable PrimeSieve.exe
+
+build PrimeSieve.exe: C_EXECUTABLE_LINKER__PrimeSieve_Debug CMakeFiles/PrimeSieve.dir/PrimeSieve.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PrimeSieve.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PrimeSieve.exe
+  TARGET_IMPLIB = libPrimeSieve.dll.a
+  TARGET_PDB = PrimeSieve.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SelfAvoidingWalk
+
+
+#############################################
+# Order-only phony target for SelfAvoidingWalk
+
+build cmake_object_order_depends_target_SelfAvoidingWalk: phony || CMakeFiles/SelfAvoidingWalk.dir
+
+build CMakeFiles/SelfAvoidingWalk.dir/SelfAvoidingWalk.c.obj: C_COMPILER__SelfAvoidingWalk_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/SelfAvoidingWalk.c || cmake_object_order_depends_target_SelfAvoidingWalk
+  DEP_FILE = CMakeFiles\SelfAvoidingWalk.dir\SelfAvoidingWalk.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\SelfAvoidingWalk.dir
+  OBJECT_FILE_DIR = CMakeFiles\SelfAvoidingWalk.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SelfAvoidingWalk
+
+
+#############################################
+# Link the executable SelfAvoidingWalk.exe
+
+build SelfAvoidingWalk.exe: C_EXECUTABLE_LINKER__SelfAvoidingWalk_Debug CMakeFiles/SelfAvoidingWalk.dir/SelfAvoidingWalk.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SelfAvoidingWalk.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SelfAvoidingWalk.exe
+  TARGET_IMPLIB = libSelfAvoidingWalk.dll.a
+  TARGET_PDB = SelfAvoidingWalk.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RandomSeq
+
+
+#############################################
+# Order-only phony target for RandomSeq
+
+build cmake_object_order_depends_target_RandomSeq: phony || CMakeFiles/RandomSeq.dir
+
+build CMakeFiles/RandomSeq.dir/RandomSeq.c.obj: C_COMPILER__RandomSeq_Debug D$:/Udemy/Coursera$ -$ Computer$ Science$ Programming$ with$ a$ Purpose/REPO/introcs/ElementsOfPrograming/RandomSeq.c || cmake_object_order_depends_target_RandomSeq
+  DEP_FILE = CMakeFiles\RandomSeq.dir\RandomSeq.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\RandomSeq.dir
+  OBJECT_FILE_DIR = CMakeFiles\RandomSeq.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RandomSeq
+
+
+#############################################
+# Link the executable RandomSeq.exe
+
+build RandomSeq.exe: C_EXECUTABLE_LINKER__RandomSeq_Debug CMakeFiles/RandomSeq.dir/RandomSeq.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RandomSeq.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RandomSeq.exe
+  TARGET_IMPLIB = libRandomSeq.dll.a
+  TARGET_PDB = RandomSeq.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -715,13 +814,19 @@ build LeapYear: phony LeapYear.exe
 
 build PowersOfTwo: phony PowersOfTwo.exe
 
+build PrimeSieve: phony PrimeSieve.exe
+
 build Quadratic: phony Quadratic.exe
 
 build RandomInt: phony RandomInt.exe
 
+build RandomSeq: phony RandomSeq.exe
+
 build Ruler: phony Ruler.exe
 
 build Sample: phony Sample.exe
+
+build SelfAvoidingWalk: phony SelfAvoidingWalk.exe
 
 build Sqrt: phony Sqrt.exe
 
@@ -739,7 +844,7 @@ build template: phony template.exe
 #############################################
 # Folder: D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug
 
-build all: phony HelloWorld.exe UseArgument.exe Ruler.exe template.exe IntOps.exe Quadratic.exe LeapYear.exe RandomInt.exe Flip.exe TenHellos.exe PowersOfTwo.exe DivisorPattern.exe HarmonicNumber.exe Sqrt.exe Binary.exe Gambler.exe Factors.exe Sample.exe CouponCollector.exe
+build all: phony HelloWorld.exe UseArgument.exe Ruler.exe template.exe IntOps.exe Quadratic.exe LeapYear.exe RandomInt.exe Flip.exe TenHellos.exe PowersOfTwo.exe DivisorPattern.exe HarmonicNumber.exe Sqrt.exe Binary.exe Gambler.exe Factors.exe Sample.exe CouponCollector.exe PrimeSieve.exe SelfAvoidingWalk.exe RandomSeq.exe
 
 # =============================================================================
 # Built-in targets

@@ -11,7 +11,7 @@ int main(int argc, char **argv) {
     int count = 0;                                  // total number of cards collected
     int distinct = 0;                               // number of distinct cards
 
-    srand(time(NULL));
+    srand((unsigned int) time(NULL));
 
     // repeatedly choose a random card and check whether it's a new one
     while (distinct < n) {

@@ -5,15 +5,15 @@
 int main(int argc, char **argv) {
     char *endptr;
 
-    // a positive integer
+    // command-line argument
     int n = strtol(argv[1], &endptr, 10);
 
     srand((unsigned int) time(NULL));
 
-    // a pseudo-random integer between 0 and n-1
-    int value = rand() % n;
-
-    printf("%d\n", value);
+    // generate and print n numbers between 0 and 1
+    for (int i = 0; i < n; i++) {
+        printf("%lf\n", (double) rand() / RAND_MAX);
+    }
 
     return 0;
 }

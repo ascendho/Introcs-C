@@ -17,5 +17,8 @@ D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/Ele
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/CMakeFiles/Factors.dir
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/CMakeFiles/Sample.dir
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/CMakeFiles/CouponCollector.dir
+D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/CMakeFiles/PrimeSieve.dir
+D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/CMakeFiles/SelfAvoidingWalk.dir
+D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/CMakeFiles/RandomSeq.dir
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Udemy/Coursera - Computer Science Programming with a Purpose/REPO/introcs/ElementsOfPrograming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
