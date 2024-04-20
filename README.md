@@ -38,6 +38,9 @@ Strive to keep variable names, function names, program comments, etc. consistent
 | <a href="introcs/ElementsOfPrograming/Factors.c">Factors.c</a> |           |                             |                 |
 | <a href="introcs/ElementsOfPrograming/Sample.c">Sample.c</a> |           |                             |                 |
 | <a href="introcs/ElementsOfPrograming/CouponCollector.c">CouponCollector.c</a> |           |                             |                 |
+| <a href="introcs/ElementsOfPrograming/PrimeSieve.c">PrimeSieve.c</a> |           |                             |                 |
+| <a href="introcs/ElementsOfPrograming/SelfAvoidingWalk.c">SelfAvoidingWalk.c</a> |           |                             |                 |
+| <a href="introcs/ElementsOfPrograming/RandomSeq.c">RandomSeq.c</a> |           |                             |                 |
 
 
 
